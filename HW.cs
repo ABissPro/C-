@@ -15,7 +15,7 @@ else
 {
     Console.WriteLine("max = " + num2 + " min = " + num1);
 }
-*/
+
 
 //Max из трех чисел
 int num1 = Convert.ToInt32(Console.ReadLine());
@@ -36,3 +36,19 @@ if (num3 > max)
     max = num3;
 }
 System.Console.WriteLine("Max value = " + max);
+*/
+
+
+// нахождение четного числа
+
+int num = Convert.ToInt32(Console.ReadLine());
+int spl = num%2;
+
+if (spl==0)
+{
+    System.Console.WriteLine(num + " - четное число");
+}
+else
+{
+        System.Console.WriteLine(num + " - нечетное число");
+}
