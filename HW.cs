@@ -36,7 +36,7 @@ if (num3 > max)
     max = num3;
 }
 System.Console.WriteLine("Max value = " + max);
-*/
+
 
 
 // нахождение четного числа
@@ -51,4 +51,19 @@ if (spl==0)
 else
 {
         System.Console.WriteLine(num + " - нечетное число");
+}
+*/
+
+
+// Нахождение четных чисел от 1 до N
+int N = Convert.ToInt32(Console.ReadLine());
+int num = 1;
+while (num <=N)
+{
+    int NUM = num%2;
+        if (NUM==0)
+        {
+        System.Console.WriteLine(num);
+        }
+    num++;
 }
