@@ -52,7 +52,7 @@ else
 {
         System.Console.WriteLine(num + " - нечетное число");
 }
-*/
+
 
 
 // Нахождение четных чисел от 1 до N
@@ -67,3 +67,4 @@ while (num <=N)
         }
     num++;
 }
+*/
