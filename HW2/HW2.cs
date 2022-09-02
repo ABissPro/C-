@@ -20,7 +20,7 @@ else
 {
     System.Console.WriteLine("RESULT: Третьей цифры нет");
 }
-*/
+
 
 
 //выходной-будний
@@ -35,3 +35,4 @@ int num = Convert.ToInt32(Console.ReadLine());
  {
     System.Console.WriteLine(" - будний день");
  }
+*/
